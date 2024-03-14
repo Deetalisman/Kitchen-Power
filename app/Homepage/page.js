@@ -20,7 +20,7 @@ function Homepage() {
           onClick={handleNav}
         />
         {nav && (
-          <ul className="absolute bg-white left-0 text-slate-500 top-12 w-[100%] h-[60vh] text-center pt-7 ">
+          <ul className="absolute bg-white left-0 text-slate-500 top-12 w-[100%] text-center pt-7 pb-5">
             <li>Recipes</li>
             <li className="mt-6">Popular</li>
             <li className="mt-6">Cusines</li>
@@ -34,7 +34,7 @@ function Homepage() {
         )}
       </div>
       <div className="homepage text-white pt-[65%] px-7">
-        <h1 className="font-semibold tracking-wide">
+        <h1 className="font-bold tracking-wide text-lg">
           DISCOVER NEW AND EXCITING
         </h1>
         <p className="mt-8">
