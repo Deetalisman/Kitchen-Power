@@ -32,7 +32,7 @@ function Signup() {
   }
   return (
     <div className="bg-[rgb(157,79,74)] p-4">
-      <main className="bg-white p-3 pt-7 px-5 rounded-xl h-[70vh]">
+      <main className="bg-white p-3 pt-7 px-5 rounded-xl pb-10">
         <p className="font-semibold">Create your account</p>
 
         <p className="text-[0.8rem] mt-8 font-semibold">Email</p>
