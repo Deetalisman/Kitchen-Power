@@ -34,10 +34,10 @@ function Homepage() {
         )}
       </div>
       <div className="homepage text-white pt-[65%] px-7">
-        <h1 className="font-bold tracking-wide text-lg">
+        <h1 className="font-bold tracking-wide text-xl">
           DISCOVER NEW AND EXCITING
         </h1>
-        <p className="mt-8">
+        <p className="mt-6">
           Classic and mouth-watering meals and side dishes for all season.
         </p>
         <button className="bg-[rgb(52,22,26)] p-2 px-7 mt-5 text-sm rounded-xl">
