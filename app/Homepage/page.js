@@ -34,7 +34,7 @@ function Homepage() {
         )}
       </div>
       <div className="homepage text-white pt-[65%] px-7">
-        <h1 className="font-bold tracking-wide text-xl">
+        <h1 className="font-bold tracking-wide text-3xl">
           DISCOVER NEW AND EXCITING
         </h1>
         <p className="mt-6">
