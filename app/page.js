@@ -1,10 +1,3 @@
-import Image from "next/image";
-import Homepage from "./Homepage/page";
-
 export default function Home() {
-  return (
-    <main>
-      <Homepage />
-    </main>
-  );
+  return <main></main>;
 }
