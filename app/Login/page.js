@@ -2,6 +2,7 @@
 import { useFormik } from "formik";
 import * as yup from "yup";
 import Link from "next/link";
+import Image from "next/image";
 function Login() {
   // const basicSchema = yup.object().shape({
   //   email: yup.string().email("Please enter your email").required("required"),
@@ -39,8 +40,15 @@ function Login() {
     }
   }
   return (
-    <div className="bg-[rgb(157,79,74)] p-4 px-6">
-      <main className="bg-white p-3 pt-7 px-5 rounded-xl pb-10">
+    <div className="bg-[rgb(157,79,74)] p-4 px-6 md:py-20 sm:px-[20%] lg:flex lg:px-[5%] xl:px-[12%] lg:justify-between">
+      <Image
+        src="/pexels-jan-n-g-u-y-e-n-_-699953-removebg-preview 1.png"
+        width={450}
+        height={100}
+        alt="login"
+        className="hidden lg:block h-[25rem] mt-8"
+      />
+      <main className="bg-white p-3 pt-7 px-5 rounded-xl pb-10 ">
         <p className="font-semibold">Login your account</p>
 
         <p className="text-[0.8rem] mt-8 font-semibold">Email</p>

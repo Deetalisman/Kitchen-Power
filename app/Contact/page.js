@@ -1,12 +1,12 @@
 function Contact() {
   return (
     <div>
-      <main className="bg-[#34161a] h-[19rem] rounded-bl-2xl rounded-br-2xl flex justify-center">
-        <button className="bg-[rgb(205,110,90)] h-[2.5rem] text-sm font-semibold text-[#34161a] p-1 rounded-lg px-4 mt-14">
+      <main className="bg-[#34161a] h-[19rem]   md:h-[10rem] rounded-bl-2xl rounded-br-2xl flex justify-center">
+        <button className="bg-[rgb(205,110,90)] h-[2.5rem]  text-sm font-semibold text-[#34161a] p-1 rounded-lg px-4 mt-14">
           CONTACT US
         </button>
       </main>
-      <div className="p-3 px-5 mt-3">
+      <div className="p-3 px-5  md:rounded-xl mb-5 mt-3 sm:mx-[15%] md:border-2 md:border-gray">
         <p className="text-sm">Firstname</p>
         <input
           type="text"

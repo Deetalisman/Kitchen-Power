@@ -1,9 +1,9 @@
 import { GoSearch } from "react-icons/go";
 function Recipes() {
   return (
-    <div className="p-5 mb-9 border-t-2 border-gray">
+    <div className="p-5 mb-9 border-t-2 border-gray sm:px-[15%] ">
       <p className="font-semibold">Recipes</p>
-      <div className="flex shadow-lg p-2 w-[100%] rounded-2xl mt-5 px-3">
+      <div className="flex shadow-lg p-2 w-[100%]  rounded-2xl mt-5 px-3">
         <GoSearch className=" text-gray-500" />
         <input
           type="text"

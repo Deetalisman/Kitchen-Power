@@ -27,9 +27,47 @@ body {
   }
 }
 .homepage {
-  background-image: url(./Homepage/Rectangle\ 61.png);
+  background-image: url(./Homepage/Rectangle\ 2.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 92.3vh;
+}
+.show {
+  display: block;
+}
+@media screen and (max-width: 700px) {
+  .main {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contain {
+    width: 48%;
+  }
+  .how {
+    padding: 0 5%;
+  }
+  .frontend {
+    padding-top: 45%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .homepage {
+    background-image: url(./Homepage/Rectangle\ 61.png);
+  }
+  .main {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .container {
+    display: block;
+  }
+  .contain {
+    width: 100%;
+  }
 }
