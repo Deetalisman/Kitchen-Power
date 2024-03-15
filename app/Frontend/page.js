@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaLocationArrow } from "react-icons/fa6";
+import { GiSelfLove } from "react-icons/gi";
 function Frontend() {
   return (
     <>
@@ -34,30 +35,16 @@ function Main() {
   return (
     <div className="px-7 py-5 pt-10 main md:px-3">
       <main className="flex justify-between how sm:justify-normal">
-        <div className="flex shadow-lg p-2 w-[15rem] rounded-2xl px-4">
+        <div className="flex shadow-lg p-2 w-[17rem] rounded-2xl px-4">
           <input
             type="text"
             placeholder="How to cook bolognese"
             className="text-sm"
           />
           <FaLocationArrow className="mt-1 text-gray-500" />
-
-          {/* <Image
-            src="/vector.png"
-            alt="vector"
-            width={20}
-            height={10}
-            className="h-[15px] mt-1"
-          /> */}
         </div>
         <div className=" shadow-lg p-2 w-[2rem] rounded-2xl sm:ml-5">
-          {/* <Image
-            src="/vector (1).png"
-            alt="vector1"
-            width={22}
-            height={10}
-            className="h-[17px] mt-1"
-          /> */}
+          <GiSelfLove className="mt-1 text-[rgb(157,79,74)]" />
         </div>
       </main>
       <section className="mt-6 mb-8">
