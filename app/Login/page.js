@@ -39,8 +39,8 @@ function Login() {
     }
   }
   return (
-    <div className="bg-[rgb(157,79,74)] p-4">
-      <main className="bg-white p-3 pt-7 px-5 rounded-xl h-[55vh]">
+    <div className="bg-[rgb(157,79,74)] p-4 px-6">
+      <main className="bg-white p-3 pt-7 px-5 rounded-xl pb-10">
         <p className="font-semibold">Login your account</p>
 
         <p className="text-[0.8rem] mt-8 font-semibold">Email</p>
@@ -67,7 +67,7 @@ function Login() {
 
         <button
           onClick={handleSubmit}
-          className="bg-[rgb(157,79,74)] text-slate-100 w-[100%] mt-5 py-2 font-semibold rounded-lg tracking-wide"
+          className="bg-[rgb(157,79,74)]  text-[0.8rem] text-slate-100 w-[100%] mt-5 py-2 font-semibold rounded-lg tracking-wide"
         >
           Continue
         </button>
