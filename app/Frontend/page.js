@@ -39,9 +39,9 @@ function Main() {
           <input
             type="text"
             placeholder="How to cook bolognese"
-            className="text-sm"
+            className="text-sm outline-none"
           />
-          <FaLocationArrow className="mt-1 text-gray-500" />
+          <FaLocationArrow className="mt-1 ml-3 text-gray-500" />
         </div>
         <div className=" shadow-lg p-2 w-[2rem] rounded-2xl sm:ml-5">
           <GiSelfLove className="mt-1 text-[rgb(157,79,74)]" />

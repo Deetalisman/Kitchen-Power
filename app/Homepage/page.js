@@ -27,7 +27,7 @@ function Homepage() {
       <div className="bg-white lg:text-[rgb(157,79,74)] py-2 px-5 lg:pb-3 xl:px-10 flex justify-between">
         <Link href="/">
           <h1
-            className="font-semibold tracking-wide mt-2 lg:mt-4"
+            className="font-semibold tracking-wide mt-2 lg:mt-4 xl:mt-3 xl:text-[1.3rem]"
             onClick={handleFronts}
           >
             MyKitchenPower
